@@ -1,0 +1,22 @@
+{
+    "name": "com.mrcool92.meshfiltereditor",
+    "version": "1.0.0",
+    "displayName": "Mesh Filter Editor",
+    "description": "Displays a mesh preview in the Mesh Filter component.",
+    "unity": "2019.3",
+    "documentationUrl": "https://github.com/MrCool92/unity-meshfiltereditor",
+    "licensesUrl": "https://github.com/MrCool92/unity-meshfiltereditor/blob/main/LICENSE",
+    "dependencies": {
+      "com.unity.modules.uielements": "1.0.0"
+   },
+   "keywords": [
+      "mesh",
+      "filter",
+      "preview"
+    ],
+    "author": {
+      "name": "MrCool92",
+      "email": "durinec.nikola@gmail.com",
+      "url": "https://mrcool92.github.io/"
+    }
+  }

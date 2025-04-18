@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:Template name="InfoBox" src="project://database/Assets/Game/Scripts/Editor/MeshFilterEditor/InfoBox.uxml?fileID=9197481963319205126&amp;guid=2934809a101031c42b0de251fb837e7e&amp;type=3#InfoBox" />
+    <Style src="project://database/Assets/Game/Scripts/Editor/MeshFilterEditor/MeshFilterEditor.uss?fileID=7433441132597879392&amp;guid=40355f5284ab54a43a5cedeb958ef892&amp;type=3#MeshFilterEditor" />
+    <engine:VisualElement name="PreviewBox" style="flex-grow: 1; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(35, 35, 35); border-right-color: rgb(35, 35, 35); border-top-color: rgb(35, 35, 35); border-bottom-color: rgb(35, 35, 35); border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; height: 350px; overflow: hidden; margin-bottom: 5px; margin-top: 5px;">
+        <editor:Toolbar name="Settings" />
+        <engine:VisualElement name="Mesh" style="flex-grow: 1; position: absolute; -unity-font-style: italic; width: 100%; height: auto; margin-top: 0; padding-top: 0; top: 21px; bottom: 0;" />
+        <engine:VisualElement name="Information" style="position: absolute; bottom: 5px; width: auto; height: 30px; left: 5px; right: 5px; flex-direction: row; justify-content: center; align-content: stretch; align-self: stretch; align-items: center; flex-grow: 1;">
+            <engine:Instance template="InfoBox" name="Vertices" />
+            <engine:Instance template="InfoBox" name="Faces" />
+            <engine:Instance template="InfoBox" name="Edges" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <editor:ObjectField label="Mesh" type="UnityEngine.Mesh, UnityEngine.CoreModule" name="Object" binding-path="m_Mesh" />
+</engine:UXML>
